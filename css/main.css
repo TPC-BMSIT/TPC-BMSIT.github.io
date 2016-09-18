@@ -47,15 +47,16 @@ body{
     font-size: 25px;
     padding: 50px;
 }
+
 .register{
-    margin-top: 7%;
-    position: relative;
-    left: 15%;
+    margin-top: 10%;
     font-size: 18px;
+    position: relative;
+    text-align: center;
 }
 
 .about{
-    margin-top: 10%;
+    margin-top: 16%;
     text-align: center;
     font-family: 'Open Sans';
 }
@@ -63,7 +64,7 @@ body{
     font-size: 20px;
 }
 .events_next{
-    margin-top: 6%;
+    margin-top: 16%;
     text-align: center;
     width: 100%;
 }
