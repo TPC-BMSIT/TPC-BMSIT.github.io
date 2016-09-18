@@ -10,9 +10,12 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+    <style>
+        body{background-color: #f9ffd9 !important;}
+    </style>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -26,18 +29,36 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/about.html">About</a></li>
-            <li><a href="/events.html">Events</a></li>
+            <li class="active"><a href="/events.html">Events</a></li>
             <li><a href="/members.html">Members</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class=" main container-fluid col-md-12 col-sm-12 col-lg-12">
-        <div class="intro container-fluid col-sm-12 col-md-6 col-lg-6">
-            <p>Intro text goes here</p>
-        </div>
-        <div class="register col-sm-12 col-md-6 col-lg-6">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqA-Tzz9rKgH8nwrJiAzegY6ZZThw_WT33RU0qAyCccqHLFg/viewform?embedded=true" width="400" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+    <div class="events_next container-fluid">
+        <h1>Events This Week</h1>
+        <hr>
+        <br>
+        <h2 style="color:rgb(16, 54, 111);">Introductory Session</h2>
+        <p style="color:rgb(16, 54, 111);">Friday, 23rd September 2016 | Main block Seminar Hall</p>
+        <br>
+        <h1>Events Coming Soon</h1>
+        <hr>
+        <br>
+        <div class="container-fluid col-md-12 col-sm-12">
+            <div class="row">
+                <div class=" panel tut col-md-6 ">
+                    <h3>Tutorial Session</h3>
+                    <p>Intro to computer science</p>
+                    <p>Friday, 30th September 2016</p>
+                </div>
+                <div class=" panel weekly col-md-6">
+                    <h3>Weekly Challenge</h3>
+                    <p> Semptember Codeoff</p>
+                    <p>Saturday, 1st October 2016</p>
+                </div>
+            </div>
         </div>
     </div>
 
