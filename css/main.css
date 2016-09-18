@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(65, 201, 17) !important;
+    font-family: 'Open Sans';
+}
+.navbar {
+    background-color: #512e3c !important;
+    font-size: 13px;
+    wline-height: 1.4;
+    border: 0;
+    border-radius: 0;
+    letter-spacing: 2px;
+    font-family: 'Open Sans' !important;
+}
+.navbar li a , .navbar, .navbar-brand {
+    color: #FFF !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+color: #101d44 !important;
+background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+border-color: transparent;
+color: #fff !important;
+}
+/*nav{
+    background-color: #01579B !important;
+    color: #FFF !important;
+
+}*/
+.main{
+    padding: 4%;
+    display: inline-block;
+}
+.reg{
+    position: relative;
+    margin-top: 10%;
+    right: -20%;
+}
+.intro{
+    margin-top: 15%;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 50px;
+}
+.register{
+    margin-top: 37%;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    font-size: 18px;
+
+
+}
