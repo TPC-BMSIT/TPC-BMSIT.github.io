@@ -34,8 +34,7 @@
     </nav>
     <div class=" main container-fluid col-md-12 col-sm-12 col-lg-12">
         <div class="row">
-            <div class="intro col-sm-12 col-md-6 ">
-                <p>Intro text goes here</p>
+            <div id="intro" class="intro col-sm-12 col-md-6 ">
             </div>
             <div class="register col-sm-12 col-md-6">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdqA-Tzz9rKgH8nwrJiAzegY6ZZThw_WT33RU0qAyCccqHLFg/viewform?embedded=true" width="400" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
@@ -43,4 +42,23 @@
         </div>
     </div>
 
+    <script>
+
+    function nextMsg(i) {
+    $('#intro').html(messages[i]).fadeIn(500).delay(1000).fadeOut(1000, function() {
+        nextMsg(++i%messages.length);
+    });
+};
+
+var messages = [
+    "We're Students",
+    "We're Programmers",
+    "We're BMSITians!",
+    "We Fuck Harder Than Johnny Sins :P"
+    ];
+
+$('#intro').hide();
+
+nextMsg(0);
+</script>
 </body>
