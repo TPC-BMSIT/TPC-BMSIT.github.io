@@ -9,7 +9,7 @@ body{
     wline-height: 1.4;
     border: 0;
     border-radius: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-family: 'Open Sans' !important;
 }
 .navbar li a , .navbar, .navbar-brand {
@@ -32,6 +32,9 @@ body{
     color: #FFF !important;
 
 }*/
+iframe{
+    color: rgb(65, 201, 17) !important;
+}
 .main{
     padding: 4%;
     display: inline-block;
