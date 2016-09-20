@@ -45,10 +45,11 @@ iframe{
     right: -20%;
 }
 .intro{
-    margin-top: 15%;
+    margin-top: 10%;
     font-weight: 400;
     font-size: 25px;
     padding: 50px;
+    font-family: Monaco, 'Open Sans';
 }
 
 .register{
@@ -86,4 +87,17 @@ iframe{
     border: 5px;
     border-style: double;
     border-color: #000;
+}
+.mnames{
+    padding: 5%;
+    font-size: 28px;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #63c0f5;
+    margin-left: 10%;
+    white-space: nowrap ;
+}
+.memHead{
+    margin-left: 10%;
+    padding-left: 5%;
+    padding-top: 2%;
 }
