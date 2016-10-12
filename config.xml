@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useFlickr="true"
+	flickrUserName=""
+	flickrTags="TPC-BMSIT"
+	galleryTitle=""
+	showOpenButton="true"
+	useThumbDots="false"
+	useFullscreenExpand="true"
+	indexPageName="gallery.html"/>
