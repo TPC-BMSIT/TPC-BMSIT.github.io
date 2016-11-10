@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Raleway:500|Martel+Sans:400,700);
 @font-face {
   font-weight: normal;
   font-style: normal;
@@ -19,7 +19,16 @@
 .clearfix:after {
   clear: both;
 }
+.APK{
+    background-color: #C0E2C1;
+    color: #000;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 3%;
 
+}
 body {
   background: #fff;
   color: #7b7b7b;
@@ -73,7 +82,7 @@ button:focus {
   margin: 0.75em 0 0;
   font-size: 2em;
   line-height: 1;
-  font-family: "Playfair Display", serif;
+  font-family: "Open Sans", serif;
 }
 
 .sidebar h1 span {
@@ -335,7 +344,7 @@ button:focus {
 .title {
   margin: 0;
   font-size: 1.875em;
-  font-family: "Playfair Display", serif;
+  font-family: "Open Sans", serif;
   text-align: center;
 }
 
@@ -387,7 +396,7 @@ button:focus {
   position: relative;
   font-size: 0.95em;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: "Open Sans", serif;
   text-align: center;
   display: block;
 }
@@ -681,7 +690,7 @@ button:focus {
   font-style: italic;
   float: left;
   margin: 0 5px;
-  font-family: "Playfair Display", serif;
+  font-family: "Open Sans", serif;
 }
 .meta--full .meta__category::before {
   content: "in ";

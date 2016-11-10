@@ -1,7 +1,7 @@
-$serif: 'Playfair Display', serif;
+$serif: 'Open Sans', serif;
 $sansserif: 'Martel Sans', Arial, sans-serif;
 
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 @font-face {
 	font-weight: normal;
@@ -41,7 +41,7 @@ a {
 	text-decoration: none;
 }
 
-a:hover, 
+a:hover,
 a:focus {
 	color: #333;
 	outline: none;
@@ -332,7 +332,7 @@ button:focus {
 .title {
 	margin: 0;
 	font-size: 1.875em;
-	font-family: $serif;
+
 	text-align: center;
 }
 
