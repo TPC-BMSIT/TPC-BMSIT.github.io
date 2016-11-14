@@ -1,0 +1,18 @@
+{
+  "name": "emitter",
+  "description": "A JavaScript event emitter written in ES6.",
+  "author": "Guille Paz <guille87paz@gmail.com>",
+  "version": "0.0.7",
+  "twitter": "@getmango",
+  "keywords": [
+    "emitter"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "dist/index.js"
+  ],
+  "repository": "mango/emitter",
+  "resolved": "41ab8a3956269c7ed468bde50203e15b3274152f"
+}

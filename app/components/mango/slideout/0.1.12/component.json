@@ -1,0 +1,24 @@
+{
+  "name": "slideout",
+  "description": "A touch slideout navigation menu for your mobile web apps.",
+  "author": "Guille Paz <guille87paz@gmail.com>",
+  "version": "0.1.12",
+  "twitter": "@mango",
+  "keywords": [
+    "slideout",
+    "offcanvas",
+    "menu",
+    "touch"
+  ],
+  "dependencies": {
+    "pazguille/decouple": "0.0.2",
+    "Mango/emitter": "0.0.7"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "repository": "mango/slideout",
+  "resolved": "8179c1ec40e5a40a0ef9f600ad9ba1e70718af8f"
+}
