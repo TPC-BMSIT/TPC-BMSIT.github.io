@@ -1,3 +1,4 @@
-#The Programming Club, BMSIT&M
+# The Programming Club, BMSIT&M
 =======
-###A commit a day, keeps bugs away!
+## The Repository of TPC at BMSIT, allso contains the TPC App repo! 
+#### A commit a day, keeps bugs away!
